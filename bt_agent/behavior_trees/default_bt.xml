@@ -1,0 +1,10 @@
+<root main_tree_to_execute="MainTree">
+  <BehaviorTree ID="MainTree">
+    <Sequence name="Sequence">
+    	<Print message="Hello World"/>
+    	<Print message="{goal}"/>
+      <!--<Wait wait_duration="5"/>-->
+    </Sequence>
+  </BehaviorTree>
+</root>
+

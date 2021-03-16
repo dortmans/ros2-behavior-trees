@@ -1,0 +1,385 @@
+[0.000000] (-) TimerEvent: {}
+[0.000115] (bt_msgs) JobQueued: {'identifier': 'bt_msgs', 'dependencies': OrderedDict()}
+[0.000713] (bt_msgs) JobStarted: {'identifier': 'bt_msgs'}
+[0.012453] (bt_msgs) JobProgress: {'identifier': 'bt_msgs', 'progress': 'cmake'}
+[0.012822] (bt_msgs) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs', '-DCMAKE_INSTALL_PREFIX=/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs'], 'cwd': '/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs', 'env': OrderedDict([('WORKON_HOME', '/home/ros2/.virtualenvs'), ('HOSTNAME', 'erics-thinkpad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/ros2_ws/install/bt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros2'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/ros2/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros2/tools/arduino-1.8.5:/home/ros2/x-tools/armv8-rpi3-linux-gnueabihf/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/eric/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_ws/install/bt_msgs:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/ros2_ws/install/bt_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_ws/install/bt_msgs:/opt/ros/foxy')]), 'shell': False}
+[0.071596] (bt_msgs) StdoutLine: {'line': b'-- The C compiler identification is GNU 9.3.0\n'}
+[0.099765] (-) TimerEvent: {}
+[0.127840] (bt_msgs) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 9.3.0\n'}
+[0.132546] (bt_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc\n'}
+[0.198404] (bt_msgs) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc -- works\n'}
+[0.199256] (bt_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.199853] (-) TimerEvent: {}
+[0.265960] (bt_msgs) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.277589] (bt_msgs) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.277906] (bt_msgs) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.280291] (bt_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++\n'}
+[0.299982] (-) TimerEvent: {}
+[0.355432] (bt_msgs) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ -- works\n'}
+[0.356493] (bt_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.400112] (-) TimerEvent: {}
+[0.432766] (bt_msgs) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.444021] (bt_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.444482] (bt_msgs) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.447987] (bt_msgs) StdoutLine: {'line': b'-- Found ament_cmake: 0.9.8 (/opt/ros/foxy/share/ament_cmake/cmake)\n'}
+[0.473978] (bt_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3") \n'}
+[0.474141] (bt_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.500227] (-) TimerEvent: {}
+[0.600486] (-) TimerEvent: {}
+[0.669009] (bt_msgs) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.0.0 (/opt/ros/foxy/share/rosidl_default_generators/cmake)\n'}
+[0.672591] (bt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.680086] (bt_msgs) StdoutLine: {'line': b'-- Found rosidl_adapter: 1.2.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)\n'}
+[0.700590] (-) TimerEvent: {}
+[0.796201] (bt_msgs) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "1.1.1f")  \n'}
+[0.800688] (-) TimerEvent: {}
+[0.835164] (bt_msgs) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/foxy/include  \n'}
+[0.900786] (-) TimerEvent: {}
+[0.934315] (bt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.965929] (bt_msgs) StdoutLine: {'line': b'-- Found builtin_interfaces: 1.0.0 (/opt/ros/foxy/share/builtin_interfaces/cmake)\n'}
+[0.979944] (bt_msgs) StdoutLine: {'line': b'-- Found action_msgs: 1.0.0 (/opt/ros/foxy/share/action_msgs/cmake)\n'}
+[1.000907] (-) TimerEvent: {}
+[1.044576] (bt_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found version "3.8.5") \n'}
+[1.101015] (-) TimerEvent: {}
+[1.184829] (bt_msgs) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.9.0 (/opt/ros/foxy/share/ament_cmake_ros/cmake)\n'}
+[1.201138] (-) TimerEvent: {}
+[1.301408] (-) TimerEvent: {}
+[1.347737] (bt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.373137] (bt_msgs) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.397049] (bt_msgs) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.399455] (bt_msgs) StdoutLine: {'line': b'-- Found python_cmake_module: 0.8.0 (/opt/ros/foxy/share/python_cmake_module/cmake)\n'}
+[1.401468] (-) TimerEvent: {}
+[1.424851] (bt_msgs) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.8.so (found suitable version "3.8.5", minimum required is "3.5") \n'}
+[1.425069] (bt_msgs) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[1.425149] (bt_msgs) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.8\n'}
+[1.425217] (bt_msgs) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.8.so\n'}
+[1.444844] (bt_msgs) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[1.495405] (bt_msgs) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.9.6 (/opt/ros/foxy/share/ament_lint_auto/cmake)\n'}
+[1.501562] (-) TimerEvent: {}
+[1.521053] (bt_msgs) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[1.529746] (bt_msgs) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[1.531733] (bt_msgs) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs/rosidl_generator_c>;/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs/rosidl_generator_c;/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs/rosidl_generator_cpp;/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs/rosidl_typesupport_fastrtps_c;/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs/rosidl_typesupport_fastrtps_cpp;$<BUILD_INTERFACE:/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs/rosidl_typesupport_introspection_c>;$<BUILD_INTERFACE:/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs/rosidl_typesupport_c>;$<BUILD_INTERFACE:/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs/rosidl_generator_cpp>;/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs/rosidl_generator_py\n'}
+[1.531862] (bt_msgs) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[1.539519] (bt_msgs) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[1.539630] (bt_msgs) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[1.540913] (bt_msgs) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[1.543005] (bt_msgs) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[1.544260] (bt_msgs) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the style conventions in PEP 257\n"}
+[1.551565] (bt_msgs) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[1.551681] (bt_msgs) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[1.552912] (bt_msgs) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[1.560045] (bt_msgs) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.601657] (-) TimerEvent: {}
+[1.615888] (bt_msgs) StdoutLine: {'line': b'-- Generating done\n'}
+[1.618728] (bt_msgs) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs\n'}
+[1.625396] (bt_msgs) CommandEnded: {'returncode': 0}
+[1.626246] (bt_msgs) JobProgress: {'identifier': 'bt_msgs', 'progress': 'build'}
+[1.627096] (bt_msgs) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs', '--', '-j8', '-l8'], 'cwd': '/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs', 'env': OrderedDict([('WORKON_HOME', '/home/ros2/.virtualenvs'), ('HOSTNAME', 'erics-thinkpad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/ros2_ws/install/bt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros2'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/ros2/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros2/tools/arduino-1.8.5:/home/ros2/x-tools/armv8-rpi3-linux-gnueabihf/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/eric/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_ws/install/bt_msgs:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/ros2_ws/install/bt_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_ws/install/bt_msgs:/opt/ros/foxy')]), 'shell': False}
+[1.672468] (bt_msgs) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[1.672722] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__cpp\x1b[0m\n'}
+[1.686871] (bt_msgs) StdoutLine: {'line': b'[  4%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[1.701745] (-) TimerEvent: {}
+[1.802083] (-) TimerEvent: {}
+[1.902310] (-) TimerEvent: {}
+[2.002542] (-) TimerEvent: {}
+[2.102798] (-) TimerEvent: {}
+[2.192659] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__rosidl_generator_c\x1b[0m\n'}
+[2.202899] (-) TimerEvent: {}
+[2.207976] (bt_msgs) StdoutLine: {'line': b'[  6%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__rosidl_generator_c.dir/rosidl_generator_c/bt_msgs/srv/detail/empty__functions.c.o\x1b[0m\n'}
+[2.208243] (bt_msgs) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__rosidl_generator_c.dir/rosidl_generator_c/bt_msgs/msg/detail/empty__functions.c.o\x1b[0m\n'}
+[2.210036] (bt_msgs) StdoutLine: {'line': b'[  8%] Built target bt_msgs__cpp\n'}
+[2.212115] (bt_msgs) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__rosidl_generator_c.dir/rosidl_generator_c/bt_msgs/action/detail/empty__functions.c.o\x1b[0m\n'}
+[2.228312] (bt_msgs) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.229771] (bt_msgs) StdoutLine: {'line': b'[ 14%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[2.230195] (bt_msgs) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[2.302989] (-) TimerEvent: {}
+[2.347289] (bt_msgs) StdoutLine: {'line': b'[ 19%] \x1b[32m\x1b[1mLinking C shared library libbt_msgs__rosidl_generator_c.so\x1b[0m\n'}
+[2.399665] (bt_msgs) StdoutLine: {'line': b'[ 19%] Built target bt_msgs__rosidl_generator_c\n'}
+[2.403101] (-) TimerEvent: {}
+[2.414657] (bt_msgs) StdoutLine: {'line': b'[ 21%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[2.417803] (bt_msgs) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[2.503198] (-) TimerEvent: {}
+[2.603512] (-) TimerEvent: {}
+[2.671544] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__rosidl_typesupport_cpp\x1b[0m\n'}
+[2.693840] (bt_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bt_msgs/srv/empty__type_support.cpp.o\x1b[0m\n'}
+[2.694127] (bt_msgs) StdoutLine: {'line': b'[ 27%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bt_msgs/msg/empty__type_support.cpp.o\x1b[0m\n'}
+[2.694839] (bt_msgs) StdoutLine: {'line': b'[ 29%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/bt_msgs/action/empty__type_support.cpp.o\x1b[0m\n'}
+[2.703612] (-) TimerEvent: {}
+[2.784697] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[2.803714] (-) TimerEvent: {}
+[2.812207] (bt_msgs) StdoutLine: {'line': b'[ 31%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bt_msgs/msg/detail/empty__type_support.cpp.o\x1b[0m\n'}
+[2.813547] (bt_msgs) StdoutLine: {'line': b'[ 34%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bt_msgs/srv/detail/empty__type_support.cpp.o\x1b[0m\n'}
+[2.903814] (-) TimerEvent: {}
+[2.954195] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__rosidl_typesupport_c\x1b[0m\n'}
+[2.991761] (bt_msgs) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bt_msgs/msg/empty__type_support.cpp.o\x1b[0m\n'}
+[3.003923] (-) TimerEvent: {}
+[3.049042] (bt_msgs) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bt_msgs/srv/empty__type_support.cpp.o\x1b[0m\n'}
+[3.104024] (-) TimerEvent: {}
+[3.109742] (bt_msgs) StdoutLine: {'line': b'[ 40%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/bt_msgs/action/empty__type_support.cpp.o\x1b[0m\n'}
+[3.204125] (-) TimerEvent: {}
+[3.210658] (bt_msgs) StdoutLine: {'line': b'[ 42%] \x1b[32m\x1b[1mLinking CXX shared library libbt_msgs__rosidl_typesupport_c.so\x1b[0m\n'}
+[3.241507] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[3.258181] (bt_msgs) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/bt_msgs/action/detail/empty__type_support.cpp.o\x1b[0m\n'}
+[3.283190] (bt_msgs) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bt_msgs/msg/detail/dds_fastrtps/empty__type_support.cpp.o\x1b[0m\n'}
+[3.297275] (bt_msgs) StdoutLine: {'line': b'[ 46%] Built target bt_msgs__rosidl_typesupport_c\n'}
+[3.304257] (-) TimerEvent: {}
+[3.315414] (bt_msgs) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bt_msgs/srv/detail/dds_fastrtps/empty__type_support.cpp.o\x1b[0m\n'}
+[3.316986] (bt_msgs) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/bt_msgs/action/detail/dds_fastrtps/empty__type_support.cpp.o\x1b[0m\n'}
+[3.325856] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[3.356590] (bt_msgs) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bt_msgs/msg/detail/empty__type_support.c.o\x1b[0m\n'}
+[3.364805] (bt_msgs) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libbt_msgs__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[3.371709] (bt_msgs) StdoutLine: {'line': b'[ 57%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bt_msgs/srv/detail/empty__type_support.c.o\x1b[0m\n'}
+[3.404368] (-) TimerEvent: {}
+[3.415595] (bt_msgs) StdoutLine: {'line': b'[ 59%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/bt_msgs/action/detail/empty__type_support.c.o\x1b[0m\n'}
+[3.446861] (bt_msgs) StdoutLine: {'line': b'[ 59%] Built target bt_msgs__rosidl_typesupport_cpp\n'}
+[3.489669] (bt_msgs) StdoutLine: {'line': b'[ 61%] \x1b[32m\x1b[1mLinking C shared library libbt_msgs__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[3.504460] (-) TimerEvent: {}
+[3.531408] (bt_msgs) StdoutLine: {'line': b'[ 61%] Built target bt_msgs__rosidl_typesupport_introspection_c\n'}
+[3.604577] (-) TimerEvent: {}
+[3.704903] (-) TimerEvent: {}
+[3.716786] (bt_msgs) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libbt_msgs__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[3.805035] (-) TimerEvent: {}
+[3.809524] (bt_msgs) StdoutLine: {'line': b'[ 63%] Built target bt_msgs__rosidl_typesupport_introspection_cpp\n'}
+[3.905162] (-) TimerEvent: {}
+[4.005460] (-) TimerEvent: {}
+[4.041728] (bt_msgs) StdoutLine: {'line': b'[ 65%] \x1b[32m\x1b[1mLinking CXX shared library libbt_msgs__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[4.105556] (-) TimerEvent: {}
+[4.124825] (bt_msgs) StdoutLine: {'line': b'[ 65%] Built target bt_msgs__rosidl_typesupport_fastrtps_cpp\n'}
+[4.134907] (bt_msgs) StdoutLine: {'line': b'[ 68%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.205638] (-) TimerEvent: {}
+[4.305916] (-) TimerEvent: {}
+[4.406142] (-) TimerEvent: {}
+[4.506494] (-) TimerEvent: {}
+[4.541822] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[4.563597] (bt_msgs) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bt_msgs/srv/detail/empty__type_support_c.cpp.o\x1b[0m\n'}
+[4.565580] (bt_msgs) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bt_msgs/msg/detail/empty__type_support_c.cpp.o\x1b[0m\n'}
+[4.566258] (bt_msgs) StdoutLine: {'line': b'[ 74%] \x1b[32mBuilding CXX object CMakeFiles/bt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/bt_msgs/action/detail/empty__type_support_c.cpp.o\x1b[0m\n'}
+[4.606600] (-) TimerEvent: {}
+[4.706915] (-) TimerEvent: {}
+[4.807274] (-) TimerEvent: {}
+[4.907600] (-) TimerEvent: {}
+[4.996486] (bt_msgs) StdoutLine: {'line': b'[ 76%] \x1b[32m\x1b[1mLinking CXX shared library libbt_msgs__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[5.007714] (-) TimerEvent: {}
+[5.080956] (bt_msgs) StdoutLine: {'line': b'[ 76%] Built target bt_msgs__rosidl_typesupport_fastrtps_c\n'}
+[5.090876] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs\x1b[0m\n'}
+[5.100627] (bt_msgs) StdoutLine: {'line': b'[ 76%] Built target bt_msgs\n'}
+[5.107831] (-) TimerEvent: {}
+[5.110152] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__py\x1b[0m\n'}
+[5.120163] (bt_msgs) StdoutLine: {'line': b'[ 78%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[5.207948] (-) TimerEvent: {}
+[5.308351] (-) TimerEvent: {}
+[5.408566] (-) TimerEvent: {}
+[5.508859] (-) TimerEvent: {}
+[5.609118] (-) TimerEvent: {}
+[5.709405] (-) TimerEvent: {}
+[5.809666] (-) TimerEvent: {}
+[5.909906] (-) TimerEvent: {}
+[6.010132] (-) TimerEvent: {}
+[6.067201] (bt_msgs) StdoutLine: {'line': b'[ 78%] Built target bt_msgs__py\n'}
+[6.076676] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__python\x1b[0m\n'}
+[6.099049] (bt_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__python.dir/rosidl_generator_py/bt_msgs/action/_empty_s.c.o\x1b[0m\n'}
+[6.099257] (bt_msgs) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__python.dir/rosidl_generator_py/bt_msgs/srv/_empty_s.c.o\x1b[0m\n'}
+[6.100739] (bt_msgs) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__python.dir/rosidl_generator_py/bt_msgs/msg/_empty_s.c.o\x1b[0m\n'}
+[6.110244] (-) TimerEvent: {}
+[6.210539] (-) TimerEvent: {}
+[6.230729] (bt_msgs) StdoutLine: {'line': b'[ 87%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bt_msgs/libbt_msgs__python.so\x1b[0m\n'}
+[6.273476] (bt_msgs) StdoutLine: {'line': b'[ 87%] Built target bt_msgs__python\n'}
+[6.285307] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[6.285637] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[6.285787] (bt_msgs) StdoutLine: {'line': b'\x1b[35m\x1b[1mScanning dependencies of target bt_msgs__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[6.308167] (bt_msgs) StdoutLine: {'line': b'[ 89%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/bt_msgs/_bt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[6.309059] (bt_msgs) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/bt_msgs/_bt_msgs_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[6.309169] (bt_msgs) StdoutLine: {'line': b'[ 93%] \x1b[32mBuilding C object CMakeFiles/bt_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/bt_msgs/_bt_msgs_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[6.310625] (-) TimerEvent: {}
+[6.410896] (-) TimerEvent: {}
+[6.427301] (bt_msgs) StdoutLine: {'line': b'[ 95%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bt_msgs/bt_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.427745] (bt_msgs) StdoutLine: {'line': b'[ 97%] \x1b[32m\x1b[1mLinking CXX shared library rosidl_generator_py/bt_msgs/bt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.428452] (bt_msgs) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/bt_msgs/bt_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\x1b[0m\n'}
+[6.471706] (bt_msgs) StdoutLine: {'line': b'[100%] Built target bt_msgs__rosidl_typesupport_introspection_c__pyext\n'}
+[6.471969] (bt_msgs) StdoutLine: {'line': b'[100%] Built target bt_msgs__rosidl_typesupport_c__pyext\n'}
+[6.498895] (bt_msgs) StdoutLine: {'line': b'[100%] Built target bt_msgs__rosidl_typesupport_fastrtps_c__pyext\n'}
+[6.508786] (bt_msgs) CommandEnded: {'returncode': 0}
+[6.511156] (-) TimerEvent: {}
+[6.585953] (bt_msgs) JobProgress: {'identifier': 'bt_msgs', 'progress': 'install'}
+[6.596715] (bt_msgs) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs'], 'cwd': '/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs', 'env': OrderedDict([('WORKON_HOME', '/home/ros2/.virtualenvs'), ('HOSTNAME', 'erics-thinkpad'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/ros2/ros2_ws/install/bt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib'), ('HOME', '/home/ros2'), ('VIRTUALENVWRAPPER_PYTHON', '/usr/bin/python3'), ('OLDPWD', '/home/ros2/ros2_ws'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2/ros2_ws/install'), ('ROS_DISTRO', 'foxy'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('NVIDIA_DRIVER_CAPABILITIES', 'graphics'), ('TERM', 'xterm'), ('ROS_LOCALHOST_ONLY', '0'), ('QT_X11_NO_MITSHM', '1'), ('PATH', '/opt/ros/foxy/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/home/ros2/tools/arduino-1.8.5:/home/ros2/x-tools/armv8-rpi3-linux-gnueabihf/bin'), ('DISPLAY', ':0'), ('LANG', 'C.UTF-8'), ('XAUTHORITY', '/home/eric/.Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ros2/ros2_ws/install/bt_msgs:/opt/ros/foxy'), ('DEBIAN_FRONTEND', 'noninteractive'), ('PWD', '/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/build/bt_msgs'), ('LC_ALL', 'C.UTF-8'), ('PYTHONPATH', '/home/ros2/ros2_ws/install/bt_msgs/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages'), ('NVIDIA_VISIBLE_DEVICES', 'all'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ros2_ws/install/bt_msgs:/opt/ros/foxy')]), 'shell': False}
+[6.605961] (bt_msgs) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[6.606214] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/ament_index/resource_index/rosidl_interfaces/bt_msgs\n'}
+[6.606434] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs\n'}
+[6.606539] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action\n'}
+[6.606630] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail\n'}
+[6.606695] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__struct.h\n'}
+[6.606773] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__type_support.h\n'}
+[6.606849] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__functions.c\n'}
+[6.606926] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__functions.h\n'}
+[6.607002] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/empty.h\n'}
+[6.607077] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg\n'}
+[6.607154] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/rosidl_generator_c__visibility_control.h\n'}
+[6.607213] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail\n'}
+[6.607290] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__struct.h\n'}
+[6.607374] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__type_support.h\n'}
+[6.607449] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__functions.c\n'}
+[6.607522] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__functions.h\n'}
+[6.607584] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/empty.h\n'}
+[6.607674] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv\n'}
+[6.607752] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail\n'}
+[6.607829] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__struct.h\n'}
+[6.607907] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__type_support.h\n'}
+[6.607967] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__functions.c\n'}
+[6.608043] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__functions.h\n'}
+[6.608119] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/empty.h\n'}
+[6.608254] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/environment/library_path.sh\n'}
+[6.608398] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/environment/library_path.dsv\n'}
+[6.608586] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_generator_c.so\n'}
+[6.608969] (bt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_generator_c.so" to ""\n'}
+[6.609134] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs\n'}
+[6.609321] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action\n'}
+[6.609475] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail\n'}
+[6.609580] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__rosidl_typesupport_fastrtps_c.h\n'}
+[6.609644] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg\n'}
+[6.609705] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[6.609782] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail\n'}
+[6.609843] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__rosidl_typesupport_fastrtps_c.h\n'}
+[6.609903] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv\n'}
+[6.610005] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail\n'}
+[6.610067] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__rosidl_typesupport_fastrtps_c.h\n'}
+[6.610127] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_fastrtps_c.so\n'}
+[6.610210] (bt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[6.610291] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs\n'}
+[6.610369] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action\n'}
+[6.610428] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail\n'}
+[6.610540] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.610617] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/dds_fastrtps\n'}
+[6.610694] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg\n'}
+[6.610772] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail\n'}
+[6.610846] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.610940] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/dds_fastrtps\n'}
+[6.611023] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[6.611084] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv\n'}
+[6.611140] (-) TimerEvent: {}
+[6.611289] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail\n'}
+[6.611371] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[6.611433] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/dds_fastrtps\n'}
+[6.611493] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_fastrtps_cpp.so\n'}
+[6.611674] (bt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[6.611780] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs\n'}
+[6.611874] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action\n'}
+[6.611950] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail\n'}
+[6.612018] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__rosidl_typesupport_introspection_c.h\n'}
+[6.612106] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__type_support.c\n'}
+[6.612185] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg\n'}
+[6.612276] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[6.612355] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail\n'}
+[6.612449] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__rosidl_typesupport_introspection_c.h\n'}
+[6.612528] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__type_support.c\n'}
+[6.612604] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv\n'}
+[6.612664] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail\n'}
+[6.612740] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__rosidl_typesupport_introspection_c.h\n'}
+[6.612809] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__type_support.c\n'}
+[6.612889] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_introspection_c.so\n'}
+[6.613103] (bt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_introspection_c.so" to ""\n'}
+[6.613210] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_c.so\n'}
+[6.613556] (bt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_c.so" to ""\n'}
+[6.613635] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs\n'}
+[6.613732] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action\n'}
+[6.613826] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/empty.hpp\n'}
+[6.613889] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail\n'}
+[6.613982] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__builder.hpp\n'}
+[6.614065] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__traits.hpp\n'}
+[6.614145] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__struct.hpp\n'}
+[6.614222] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg\n'}
+[6.614312] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/empty.hpp\n'}
+[6.614393] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail\n'}
+[6.614473] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__builder.hpp\n'}
+[6.614568] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__traits.hpp\n'}
+[6.614651] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__struct.hpp\n'}
+[6.614730] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv\n'}
+[6.614808] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/empty.hpp\n'}
+[6.614884] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail\n'}
+[6.614946] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__builder.hpp\n'}
+[6.615046] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__traits.hpp\n'}
+[6.615122] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__struct.hpp\n'}
+[6.615198] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs\n'}
+[6.615262] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action\n'}
+[6.615361] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail\n'}
+[6.615439] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__type_support.cpp\n'}
+[6.615519] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/action/detail/empty__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.615611] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg\n'}
+[6.615690] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail\n'}
+[6.615750] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__type_support.cpp\n'}
+[6.615809] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/msg/detail/empty__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.615891] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv\n'}
+[6.615952] (bt_msgs) StdoutLine: {'line': b'-- Up-to-date: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail\n'}
+[6.616011] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__type_support.cpp\n'}
+[6.616070] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/include/bt_msgs/srv/detail/empty__rosidl_typesupport_introspection_cpp.hpp\n'}
+[6.616130] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_introspection_cpp.so\n'}
+[6.616247] (bt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[6.616354] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_cpp.so\n'}
+[6.616702] (bt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__rosidl_typesupport_cpp.so" to ""\n'}
+[6.616786] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/environment/pythonpath.sh\n'}
+[6.616900] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/environment/pythonpath.dsv\n'}
+[6.617106] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/__init__.py\n'}
+[6.645435] (bt_msgs) StdoutLine: {'line': b"Compiling '/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/__init__.py'...\n"}
+[6.648838] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/msg\n'}
+[6.649080] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/msg/_empty.py\n'}
+[6.649215] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/msg/__init__.py\n'}
+[6.649321] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/msg/_empty_s.c\n'}
+[6.649398] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/srv\n'}
+[6.649467] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/srv/_empty.py\n'}
+[6.649539] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/srv/__init__.py\n'}
+[6.649594] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/srv/_empty_s.c\n'}
+[6.649665] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/action\n'}
+[6.649732] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/action/_empty.py\n'}
+[6.649786] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/action/__init__.py\n'}
+[6.649840] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/action/_empty_s.c\n'}
+[6.650082] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/bt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.650760] (bt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/bt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[6.651036] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/bt_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.651699] (bt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/bt_msgs_s__rosidl_typesupport_introspection_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[6.651899] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/bt_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so\n'}
+[6.652385] (bt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/python3.8/site-packages/bt_msgs/bt_msgs_s__rosidl_typesupport_c.cpython-38-x86_64-linux-gnu.so" to ""\n'}
+[6.652516] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__python.so\n'}
+[6.652902] (bt_msgs) StdoutLine: {'line': b'-- Set runtime path of "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/lib/libbt_msgs__python.so" to ""\n'}
+[6.653059] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/msg/Empty.idl\n'}
+[6.653215] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/srv/Empty.idl\n'}
+[6.653404] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/action/Empty.idl\n'}
+[6.653541] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/msg/Empty.msg\n'}
+[6.653661] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/srv/Empty.srv\n'}
+[6.653788] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/srv/Empty_Request.msg\n'}
+[6.653919] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/srv/Empty_Response.msg\n'}
+[6.654083] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/action/Empty.action\n'}
+[6.654265] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/ament_index/resource_index/package_run_dependencies/bt_msgs\n'}
+[6.654466] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/ament_index/resource_index/parent_prefix_path/bt_msgs\n'}
+[6.654635] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/environment/ament_prefix_path.sh\n'}
+[6.654805] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/environment/ament_prefix_path.dsv\n'}
+[6.654937] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/environment/path.sh\n'}
+[6.655072] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/environment/path.dsv\n'}
+[6.655235] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/local_setup.bash\n'}
+[6.655399] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/local_setup.sh\n'}
+[6.655546] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/local_setup.zsh\n'}
+[6.655668] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/local_setup.dsv\n'}
+[6.655806] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/package.dsv\n'}
+[6.655972] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/ament_index/resource_index/packages/bt_msgs\n'}
+[6.656184] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgs__rosidl_generator_cExport.cmake\n'}
+[6.656367] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgs__rosidl_generator_cExport-noconfig.cmake\n'}
+[6.656545] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgs__rosidl_typesupport_introspection_cExport.cmake\n'}
+[6.656685] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[6.656853] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgs__rosidl_typesupport_cExport.cmake\n'}
+[6.657006] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgs__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[6.657246] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgs__rosidl_generator_cppExport.cmake\n'}
+[6.657469] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgs__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[6.657641] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[6.657822] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgs__rosidl_typesupport_cppExport.cmake\n'}
+[6.658016] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgs__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[6.658203] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/rosidl_cmake-extras.cmake\n'}
+[6.658330] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[6.658427] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[6.658565] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[6.658687] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[6.658812] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[6.658941] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[6.659062] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgsConfig.cmake\n'}
+[6.659142] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/cmake/bt_msgsConfig-version.cmake\n'}
+[6.659240] (bt_msgs) StdoutLine: {'line': b'-- Installing: /home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs/install/bt_msgs/share/bt_msgs/package.xml\n'}
+[6.661519] (bt_msgs) CommandEnded: {'returncode': 0}
+[6.711277] (-) TimerEvent: {}
+[6.757279] (bt_msgs) JobEnded: {'identifier': 'bt_msgs', 'rc': 0}
+[6.758263] (-) EventReactorShutdown: {}

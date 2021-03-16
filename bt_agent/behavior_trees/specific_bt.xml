@@ -1,0 +1,18 @@
+<root main_tree_to_execute="BehaviorTree">
+    <!-- ////////// -->
+    <BehaviorTree ID="BehaviorTree">
+        <Repeat num_cycles="10">
+            <Sequence>
+                <Action ID="Print" message="Hello World"/>
+            </Sequence>
+        </Repeat>
+    </BehaviorTree>
+    <!-- ////////// -->
+    <TreeNodesModel>
+        <Action ID="Print">
+            <input_port type="std::string" name="message"/>
+        </Action>
+    </TreeNodesModel>
+    <!-- ////////// -->
+</root>
+

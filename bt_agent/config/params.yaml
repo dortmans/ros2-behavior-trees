@@ -1,0 +1,22 @@
+bt_agent:
+  ros__parameters:
+    use_sim_time: False
+    enable_groot_monitoring: True
+    groot_zmq_publisher_port: 1666
+    groot_zmq_server_port: 1667
+    default_bt_xml_filename: "default_bt.xml"
+    plugin_lib_names:
+    - generic_print_action_bt_node
+    - nav2_wait_action_bt_node
+    - nav2_rate_controller_bt_node
+    - nav2_recovery_node_bt_node
+    - nav2_pipeline_sequence_bt_node
+    - nav2_round_robin_node_bt_node
+    - nav2_transform_available_condition_bt_node
+    - nav2_time_expired_condition_bt_node
+    - nav2_is_battery_low_condition_bt_node
+    - nav2_navigate_to_pose_action_bt_node
+
+bt_agent_rclcpp_node:
+  ros__parameters:
+    use_sim_time: False

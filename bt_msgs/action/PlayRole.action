@@ -1,0 +1,11 @@
+#goal definition
+string role
+Param[] params
+string behavior_tree
+---
+#result definition
+---
+#feedback definition
+builtin_interfaces/Duration running_time
+int16 number_of_recoveries
+
