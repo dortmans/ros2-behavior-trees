@@ -20,7 +20,7 @@
 #include "rclcpp/rclcpp.hpp"
 #include "behaviortree_cpp_v3/action_node.h"
 
-namespace bt_agent
+namespace nav2_behavior_tree
 {
 
 class PrintAction: public BT::SyncActionNode
@@ -41,6 +41,6 @@ private:
   rclcpp::Node::SharedPtr node_;
 };
 
-}  // namespace bt_agent
+}  // namespace nav2_behavior_tree
 
 #endif  // BT_AGENT__PLUGINS__ACTION__PRINT_ACTION_HPP_

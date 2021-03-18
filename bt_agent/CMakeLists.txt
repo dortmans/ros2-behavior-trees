@@ -73,6 +73,10 @@ target_link_libraries(${executable_name} ${library_name})
 add_library(generic_print_action_bt_node SHARED plugins/action/print_action.cpp)
 list(APPEND plugin_libs generic_print_action_bt_node)
 
+add_library(demo_fibonacci_action_bt_node SHARED plugins/action/fibonacci_action.cpp)
+list(APPEND plugin_libs demo_fibonacci_action_bt_node)
+
+
 foreach(bt_plugin ${plugin_libs})
   ament_target_dependencies(${bt_plugin} ${dependencies})
   target_compile_definitions(${bt_plugin} PRIVATE BT_PLUGIN_EXPORT)
@@ -100,6 +104,7 @@ ament_python_install_package(${PROJECT_NAME})
 ## Install Python executables
 
 install(PROGRAMS
+  scripts/add_two_ints_server.py
   scripts/fibonacci_action_server.py
   DESTINATION lib/${PROJECT_NAME}
 )

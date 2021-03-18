@@ -17,7 +17,7 @@
 
 #include "bt_agent/plugins/action/print_action.hpp"
 
-namespace bt_agent
+namespace nav2_behavior_tree
 {
 PrintAction::PrintAction(
   const std::string & xml_tag_name,
@@ -41,10 +41,11 @@ BT::NodeStatus PrintAction::tick()
   return BT::NodeStatus::SUCCESS;
 }
 
-}  // namespace bt_agent
+}  // namespace nav2_behavior_tree
+
 
 #include "behaviortree_cpp_v3/bt_factory.h"
 BT_REGISTER_NODES(factory)
 {
-  factory.registerNodeType<bt_agent::PrintAction>("Print");
+  factory.registerNodeType<nav2_behavior_tree::PrintAction>("Print");
 }

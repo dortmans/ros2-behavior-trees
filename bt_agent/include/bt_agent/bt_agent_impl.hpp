@@ -171,8 +171,8 @@ BtAgent<ActionT>::onLoop()
   int recovery_count = 0;
   blackboard->template get<int>("number_recoveries", recovery_count);
   //TODO: appropiate feedback using variables defined in action
-  //feedback_msg->number_of_recoveries = recovery_count;
-  //feedback_msg->running_time = now() - start_time_;
+  feedback_msg->number_of_recoveries = recovery_count;
+  feedback_msg->running_time = now() - start_time_;
   bt_action_server_->publishFeedback(feedback_msg);
 }
 
@@ -194,7 +194,14 @@ BtAgent<ActionT>::initializeGoal(Goal goal)
   // Store goal on blackboard
   auto blackboard = bt_action_server_->getBlackboard();
   blackboard->template set<int>("number_recoveries", 0);  // NOLINT
-  blackboard->template set<Goal>("goal", goal); 
+  //blackboard->template set<Goal>("goal", goal);
+  blackboard->template set<std::string>("role", goal->role);
+  for (auto param : goal->params) 
+  {
+  	blackboard->template set<std::string>(param.key, param.value);
+  }
+  blackboard->template set<std::string>("behavior_tree", goal->behavior_tree);
+  
 }
 
 
