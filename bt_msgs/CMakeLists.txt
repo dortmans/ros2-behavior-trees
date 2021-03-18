@@ -23,6 +23,7 @@ rosidl_generate_interfaces(${PROJECT_NAME}
 	"msg/Empty.msg"
 	"msg/Param.msg"
 	"srv/Empty.srv"
+	"srv/AddTwoInts.srv"
 	"action/Empty.action"
 	"action/Fibonacci.action"
 	"action/PlayRole.action"

@@ -16,6 +16,7 @@ bt_agent:
     - nav2_time_expired_condition_bt_node
     - nav2_is_battery_low_condition_bt_node
     - nav2_navigate_to_pose_action_bt_node
+    - demo_fibonacci_action_bt_node
 
 bt_agent_rclcpp_node:
   ros__parameters:
