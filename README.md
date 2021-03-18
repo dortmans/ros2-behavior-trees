@@ -58,7 +58,7 @@ The agent retrieves the path to a behavior tree xml file from the action goal. I
 
 ## Plugins
 
-The behavior tree control, decorator, condition and action nodes are implemented as C++ plugins. A couple of widely used node plugins are provided by BehaviorTree.CPP. Also various baseclasses are provided to [construct new, application specific action plugins](https://navigation.ros.org/plugin_tutorials/docs/writing_new_bt_plugin.html):
+The behavior tree control, decorator, condition and action nodes are implemented as C++ plugins. A couple of widely used node plugins are provided by BehaviorTree.CPP. Also various baseclasses are provided to [construct new behavior tree plugins](https://navigation.ros.org/plugin_tutorials/docs/writing_new_bt_plugin.html):
 
 - behaviortree_cpp_v3/control_node.h
 - behaviortree_cpp_v3/decorator_node.h
