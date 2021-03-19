@@ -76,6 +76,8 @@ list(APPEND plugin_libs generic_print_action_bt_node)
 add_library(demo_fibonacci_action_bt_node SHARED plugins/action/fibonacci_action.cpp)
 list(APPEND plugin_libs demo_fibonacci_action_bt_node)
 
+add_library(demo_add_two_ints_service_bt_node SHARED plugins/action/add_two_ints_service.cpp)
+list(APPEND plugin_libs demo_add_two_ints_service_bt_node)
 
 foreach(bt_plugin ${plugin_libs})
   ament_target_dependencies(${bt_plugin} ${dependencies})

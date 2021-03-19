@@ -2,7 +2,7 @@
   <BehaviorTree ID="MainTree">
     <Sequence name="Sequence">
     	<Print message="=== Fibonacci demo ==="/>
-    	<SetBlackboard output_key="fibonacci_order" value="5" />
+    	<!--<SetBlackboard output_key="fibonacci_order" value="5" />-->
     	<Print message="Order"/>
     	<Print message="{fibonacci_order}"/>
     	<Fibonacci order="{fibonacci_order}" sequence="{fibonacci_sequence}"/>
