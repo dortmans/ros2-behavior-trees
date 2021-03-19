@@ -1,8 +1,0 @@
-{
-  "package_name": "bt_msgs",
-  "non_idl_tuples": [
-    "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs:msg/Empty.msg",
-    "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs:srv/Empty.srv",
-    "/home/ros2/ros2_ws/src/ros2-behavior-trees/bt_msgs:action/Empty.action"
-  ]
-}
