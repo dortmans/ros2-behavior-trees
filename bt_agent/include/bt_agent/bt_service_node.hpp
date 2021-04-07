@@ -32,8 +32,9 @@ class BtServiceNode : public BT::SyncActionNode
 public:
   BtServiceNode(
     const std::string & service_node_name,
+    const std::string & service_name,
     const BT::NodeConfiguration & conf)
-  : BT::SyncActionNode(service_node_name, conf), service_node_name_(service_node_name)
+  : BT::SyncActionNode(service_node_name, conf), service_name_(service_name)
   {
     node_ = config().blackboard->template get<rclcpp::Node::SharedPtr>("node");
 
@@ -43,7 +44,10 @@ public:
     getInput<std::chrono::milliseconds>("server_timeout", server_timeout_);
 
     // Now that we have node_ to use, create the service client for this BT service
-    getInput("service_name", service_name_);
+    std::string remapped_service_name;
+    if (getInput("server_name", remapped_service_name)) {
+      service_name_ = remapped_service_name;
+    }
     service_client_ = node_->create_client<ServiceT>(service_name_);
 
     // Make a request for the service without parameter
@@ -57,7 +61,7 @@ public:
 
     RCLCPP_INFO(
       node_->get_logger(), "\"%s\" BtServiceNode initialized",
-      service_node_name_.c_str());
+      service_node_name.c_str());
   }
 
   BtServiceNode() = delete;
@@ -106,7 +110,8 @@ public:
       node_,
       future_result, server_timeout_);
     if (rc == rclcpp::FutureReturnCode::SUCCESS) {
-      return BT::NodeStatus::SUCCESS;
+      response_ = future_result.get();
+      return on_success();
     } else if (rc == rclcpp::FutureReturnCode::TIMEOUT) {
       RCLCPP_WARN(
         node_->get_logger(),
@@ -122,6 +127,14 @@ public:
   {
   }
 
+  // Called upon successful completion of service call. A derived class can override this
+  // method to put a value on the blackboard, for example.
+  virtual BT::NodeStatus on_success()
+  {
+    return BT::NodeStatus::SUCCESS;
+  }
+
+
 protected:
   void increment_recovery_count()
   {
@@ -131,9 +144,10 @@ protected:
     config().blackboard->template set<int>("number_recoveries", recovery_count);  // NOLINT
   }
 
-  std::string service_name_, service_node_name_;
+  std::string service_name_;
   typename std::shared_ptr<rclcpp::Client<ServiceT>> service_client_;
   std::shared_ptr<typename ServiceT::Request> request_;
+  std::shared_ptr<typename ServiceT::Response> response_;
 
   // The node that will be used for any ROS operations
   rclcpp::Node::SharedPtr node_;

@@ -31,11 +31,13 @@ FibonacciAction::FibonacciAction(
 
 void FibonacciAction::on_tick()
 {
+	// Get input from blackboard and create goal
   getInput<int>("order", goal_.order);
 }
 
 BT::NodeStatus FibonacciAction::on_success()
 {
+	// Process result into output on blackboard
 	std::stringstream ss;
 	for (auto number : result_.result->sequence) {
 	  ss << number << ";";
